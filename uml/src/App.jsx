@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <main>
-        <Stuktura></Stuktura>
-        <Izmanto></Izmanto>
-        <Elementi></Elementi>
-        <Piemers></Piemers>
-        <Diagramma></Diagramma>
+        <Stuktura />
+        <Izmanto />
+        <Elementi />
+        <Piemers />
+        <Diagramma />
       </main>
     </>
   )
