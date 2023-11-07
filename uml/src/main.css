@@ -25,3 +25,12 @@ article {
 
     padding: 3rem;
 }
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
