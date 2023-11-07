@@ -1,9 +1,13 @@
+import Stuktura from './components/Stuktura'
+import Izmanto from './components/Izmanto'
+
 function App() {
 
   return (
     <>
       <main>
-        test
+        <Stuktura></Stuktura>
+        <Izmanto></Izmanto>
       </main>
     </>
   )
