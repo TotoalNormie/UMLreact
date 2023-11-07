@@ -1,13 +1,13 @@
-import Article1 from './components/Article1';
-import Article2 from './components/Article2';
+import Stuktura from './components/Stuktura'
+import Izmanto from './components/Izmanto'
 
 function App() {
 
   return (
     <>
       <main>
-        <Article1></Article1>
-        <Article2></Article2>
+        <Stuktura></Stuktura>
+        <Izmanto></Izmanto>
       </main>
     </>
   )
