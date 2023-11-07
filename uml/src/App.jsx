@@ -1,5 +1,7 @@
+import Elementi from './components/Elementi'
 import Stuktura from './components/Stuktura'
 import Izmanto from './components/Izmanto'
+import Piemers from './components/Piemers'
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
       <main>
         <Stuktura></Stuktura>
         <Izmanto></Izmanto>
+        <Elementi></Elementi>
+        <Piemers></Piemers>
       </main>
     </>
   )
