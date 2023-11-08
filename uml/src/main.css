@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family: 'Sofia Sans', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     background-color: #151515;
     color: white;
 }
@@ -17,20 +17,33 @@ main {
     height: 100svh;
     scroll-snap-type: y mandatory;
     overscroll-behavior-x: contain;
+    counter-reset: counter;
 }
 
 article {
     scroll-snap-align: start;
     height: 100svh;
-
-    padding: 3rem;
+    counter-increment: counter;
+    padding: 3rem 6rem;
 }
 
 h2 {
     font-size: 2.5rem;
+    &::before {
+        content: counter(counter) '. ';
+    }
+}
+
+a {
+    color: inherit;
+    
 }
 
 .img {
     display: flex;
     justify-content: center;
+}
+
+.entity, p {
+margin-inline: 2rem;
 }
