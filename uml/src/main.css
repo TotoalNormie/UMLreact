@@ -18,12 +18,18 @@ main {
 	scroll-snap-type: y mandatory;
 	overscroll-behavior-x: contain;
 	counter-reset: counter;
+	background-color: #999999;
+	display: grid;
+	gap: 0.3rem;
 }
 
 article {
 	scroll-snap-align: start;
 	height: 100svh;
 	counter-increment: counter;
+	background-color: #151515;
+	background: linear-gradient(180.2deg, #151515 6.8%, rgb(36, 49, 55) 131%);
+
 	padding: 3rem 6rem;
 }
 
@@ -39,12 +45,33 @@ a {
 }
 
 .img {
+	margin-top: 3rem;
 	display: flex;
 	justify-content: center;
-	height: 300px;
+	height: 350px;
 }
 
 .entity,
 p {
 	margin-inline: 2rem;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #151515;
+	background: linear-gradient(180.2deg, #151515 6.8%, rgb(36, 49, 55) 131%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #303030;
+	border-radius: 100vw;
+
+    &:hover {
+        background-color: #404040;
+    }
 }
