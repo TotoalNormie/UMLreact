@@ -75,3 +75,9 @@ p {
         background-color: #404040;
     }
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin-inline: auto;
+}
