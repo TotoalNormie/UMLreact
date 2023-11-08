@@ -75,6 +75,7 @@ p {
         background-color: #404040;
     }
 }
+
 .cont{
     display: flex;
     justify-content: center;
@@ -85,4 +86,9 @@ p {
 .cont h1{
     margin: 0;
     padding: 0;
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin-inline: auto;
 }
