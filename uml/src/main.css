@@ -75,3 +75,14 @@ p {
         background-color: #404040;
     }
 }
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.cont h1{
+    margin: 0;
+    padding: 0;
+}
