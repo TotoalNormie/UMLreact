@@ -4,7 +4,7 @@ function Title() {
       <>
         <article>
             <div className = "cont">
-                <h1>Paldies par uzmanību! :)</h1>
+                <h1>Paldies par uzmanību! :D</h1>
             </div>
         </article>
       </>
