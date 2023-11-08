@@ -4,20 +4,20 @@ import Izmanto from './components/Izmanto'
 import Diagramma from './components/Diagramma'
 import Piemers from './components/Piemers'
 import Uzdevums from './components/Uzdevums'
-import Title from './components/Title'
+import Outro from './components/Outro'
 
 function App() {
 
   return (
     <>
       <main>
-        <Title />
         <Stuktura />
         <Izmanto />
         <Elementi />
         <Piemers />
         <Diagramma />
         <Uzdevums />
+        <Outro />
       </main>
     </>
   )
