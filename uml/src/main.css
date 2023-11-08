@@ -17,7 +17,6 @@ main {
 	height: 100svh;
 	scroll-snap-type: y mandatory;
 	overscroll-behavior-x: contain;
-	counter-reset: counter;
 	background-color: #999999;
 	display: grid;
 	gap: 0.3rem;
@@ -31,6 +30,17 @@ article {
 	background: linear-gradient(180.2deg, #151515 6.8%, rgb(36, 49, 55) 131%);
 
 	padding: 3rem 6rem;
+
+	&:first-child {
+		text-align: right;
+		& h1 {
+			margin-top: 20%;
+			font-size: 5rem;
+		}
+	}
+	&:nth-child(2) {
+		counter-reset: counter;
+	}
 }
 
 h2 {
