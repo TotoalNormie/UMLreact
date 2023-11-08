@@ -4,7 +4,9 @@ import Izmanto from './components/Izmanto'
 import Diagramma from './components/Diagramma'
 import Piemers from './components/Piemers'
 import Uzdevums from './components/Uzdevums'
+import Outro from './components/Outro'
 import Titlus from './components/Titlus'
+
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
         <Piemers />
         <Diagramma />
         <Uzdevums />
+        <Outro />
       </main>
     </>
   )
