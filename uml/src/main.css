@@ -1,49 +1,50 @@
- @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 28px;
-    background-color: #151515;
-    color: white;
+	margin: 0;
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 28px;
+	background-color: #151515;
+	color: white;
 }
 
 main {
-    overflow-y: scroll;
-    height: 100svh;
-    scroll-snap-type: y mandatory;
-    overscroll-behavior-x: contain;
-    counter-reset: counter;
+	overflow-y: scroll;
+	height: 100svh;
+	scroll-snap-type: y mandatory;
+	overscroll-behavior-x: contain;
+	counter-reset: counter;
 }
 
 article {
-    scroll-snap-align: start;
-    height: 100svh;
-    counter-increment: counter;
-    padding: 3rem 6rem;
+	scroll-snap-align: start;
+	height: 100svh;
+	counter-increment: counter;
+	padding: 3rem 6rem;
 }
 
 h2 {
-    font-size: 2.5rem;
-    &::before {
-        content: counter(counter) '. ';
-    }
+	font-size: 2.5rem;
+	&::before {
+		content: counter(counter) '. ';
+	}
 }
 
 a {
-    color: inherit;
-    
+	color: inherit;
 }
 
 .img {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
+	height: 300px;
 }
 
-.entity, p {
-margin-inline: 2rem;
+.entity,
+p {
+	margin-inline: 2rem;
 }
