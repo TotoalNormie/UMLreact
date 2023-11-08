@@ -3,6 +3,7 @@ import Stuktura from './components/Stuktura'
 import Izmanto from './components/Izmanto'
 import Diagramma from './components/Diagramma'
 import Piemers from './components/Piemers'
+import Uzdevums from './components/Uzdevums'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Elementi />
         <Piemers />
         <Diagramma />
+        <Uzdevums />
       </main>
     </>
   )
